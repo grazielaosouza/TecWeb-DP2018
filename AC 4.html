@@ -1,0 +1,53 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+            <link rel="stylesheet" href="ac 4.css">
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Exemplo de formulário</title>        
+    </head>
+    <body>
+
+    <form name="formulario" id="formulario_cadastro" action="salvar.jsp" method="post">
+    <div>
+        <label>Nome completo</label><input type="text" name="nome" size="40" maxlength="20" /><br />
+        </div>
+     <div>   
+    <label>Endereço</label> <input type="text" name="endereco" size="40" maxlength="30" /><br />
+    </div>
+    <div>
+    <label>CPF</label> <input type="text" name="cpf" size="20" maxlength="14" /><br />
+    </div>
+    <div>
+    <label>Cidade</label> <input type="text" name="Cidade" size="20" maxlength="20" /><br />
+    </div>
+    <div>
+    <label>UF</label><input type="text" name="UF" size="20" maxlength="2" /><br />
+    </div>
+    <div>
+    <label>E-mail</label> <input type="email" name="email" size="40" maxlength="20" /><br />
+    </div>
+    <div>
+    <label>Rede Social</label> <input type="checkbox" name="Facebook">Facebook<input type="checkbox" name="Twitter">Twitter<input type="checkbox" name="Whatsap">Whatsapp<input type="checkbox" name="Outros">Outros
+        </div>
+
+    <div>
+    <label>Cursos </label><select name="Cursos " id="Cursos ">
+            <option value="">
+            <option value="Redes">Redes
+            <option value="SI">Sistemas de informação</option>
+            <option value="ADS">Análise e desenvolvimento de Sistemas</option>
+            </select>
+    </div>
+    <div>
+	<label>Motivo da inscrição</label> <input type="text" name="Motivo da inscrição" size="100" maxlength="100" /><br />
+    </div>
+    <p>
+    </p>
+	    
+
+<center>	<input type="submit" name="enviar" value="Salvar" /></center>
+	
+    </form>
+</html>
+
